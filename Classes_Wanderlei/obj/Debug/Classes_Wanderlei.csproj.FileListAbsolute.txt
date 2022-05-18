@@ -1,0 +1,13 @@
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\bin\Debug\Classes_Wanderlei.exe.config
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\bin\Debug\Classes_Wanderlei.exe
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\bin\Debug\Classes_Wanderlei.pdb
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.csproj.AssemblyReference.cache
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.csproj.SuggestedBindingRedirects.cache
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.FrmAlimento.resources
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.FrmPrefeito.resources
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.Properties.Resources.resources
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.csproj.GenerateResource.cache
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.csproj.CoreCompileInputs.cache
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.exe
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.pdb
+H:\Visual Studio 2022\Projects\Classes_Wanderlei\Classes_Wanderlei\obj\Debug\Classes_Wanderlei.FrmLoja.resources
