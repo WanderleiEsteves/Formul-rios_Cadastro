@@ -28,10 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mnsMenuPrefeito = new System.Windows.Forms.MenuStrip();
-            this.mnsMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiLoja = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAlimento = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNome = new System.Windows.Forms.Label();
             this.mtxCpf = new System.Windows.Forms.MaskedTextBox();
@@ -58,42 +54,12 @@
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.lblAviso = new System.Windows.Forms.Label();
+            this.tsmiMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiLoja = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiAlimento = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnsMenuPrefeito = new System.Windows.Forms.MenuStrip();
             this.mnsMenuPrefeito.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // mnsMenuPrefeito
-            // 
-            this.mnsMenuPrefeito.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.mnsMenuPrefeito.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnsMenu});
-            this.mnsMenuPrefeito.Location = new System.Drawing.Point(0, 0);
-            this.mnsMenuPrefeito.Name = "mnsMenuPrefeito";
-            this.mnsMenuPrefeito.Size = new System.Drawing.Size(726, 24);
-            this.mnsMenuPrefeito.TabIndex = 1;
-            this.mnsMenuPrefeito.Text = "menuStrip1";
-            // 
-            // mnsMenu
-            // 
-            this.mnsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiLoja,
-            this.tsmiAlimento});
-            this.mnsMenu.Name = "mnsMenu";
-            this.mnsMenu.Size = new System.Drawing.Size(50, 20);
-            this.mnsMenu.Text = "Menu";
-            // 
-            // tsmiLoja
-            // 
-            this.tsmiLoja.Name = "tsmiLoja";
-            this.tsmiLoja.Size = new System.Drawing.Size(184, 22);
-            this.tsmiLoja.Text = "Formulário Loja";
-            this.tsmiLoja.Click += new System.EventHandler(this.tsmiLoja_Click);
-            // 
-            // tsmiAlimento
-            // 
-            this.tsmiAlimento.Name = "tsmiAlimento";
-            this.tsmiAlimento.Size = new System.Drawing.Size(184, 22);
-            this.tsmiAlimento.Text = "Formulário Alimento";
-            this.tsmiAlimento.Click += new System.EventHandler(this.tsmiAlimento_Click);
             // 
             // lblTitulo
             // 
@@ -327,6 +293,40 @@
             this.lblAviso.TabIndex = 27;
             this.lblAviso.Text = "* Obrigatório";
             // 
+            // tsmiMenu
+            // 
+            this.tsmiMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiLoja,
+            this.tsmiAlimento});
+            this.tsmiMenu.Name = "tsmiMenu";
+            this.tsmiMenu.Size = new System.Drawing.Size(50, 20);
+            this.tsmiMenu.Text = "Menu";
+            // 
+            // tsmiLoja
+            // 
+            this.tsmiLoja.Name = "tsmiLoja";
+            this.tsmiLoja.Size = new System.Drawing.Size(184, 22);
+            this.tsmiLoja.Text = "Formulário Loja";
+            this.tsmiLoja.Click += new System.EventHandler(this.tsmiLoja_Click);
+            // 
+            // tsmiAlimento
+            // 
+            this.tsmiAlimento.Name = "tsmiAlimento";
+            this.tsmiAlimento.Size = new System.Drawing.Size(184, 22);
+            this.tsmiAlimento.Text = "Formulário Alimento";
+            this.tsmiAlimento.Click += new System.EventHandler(this.tsmiAlimento_Click);
+            // 
+            // mnsMenuPrefeito
+            // 
+            this.mnsMenuPrefeito.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.mnsMenuPrefeito.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiMenu});
+            this.mnsMenuPrefeito.Location = new System.Drawing.Point(0, 0);
+            this.mnsMenuPrefeito.Name = "mnsMenuPrefeito";
+            this.mnsMenuPrefeito.Size = new System.Drawing.Size(726, 24);
+            this.mnsMenuPrefeito.TabIndex = 1;
+            this.mnsMenuPrefeito.Text = "menuStrip1";
+            // 
             // FrmPrefeito
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -369,11 +369,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip mnsMenuPrefeito;
-        private System.Windows.Forms.ToolStripMenuItem mnsMenu;
-        private System.Windows.Forms.ToolStripMenuItem tsmiLoja;
-        private System.Windows.Forms.ToolStripMenuItem tsmiAlimento;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.MaskedTextBox mtxCpf;
@@ -400,6 +395,10 @@
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Label lblAviso;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMenu;
+        private System.Windows.Forms.ToolStripMenuItem tsmiLoja;
+        private System.Windows.Forms.ToolStripMenuItem tsmiAlimento;
+        private System.Windows.Forms.MenuStrip mnsMenuPrefeito;
     }
 }
 

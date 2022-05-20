@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.mnsMenuLoja = new System.Windows.Forms.MenuStrip();
-            this.mnsMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAlimento = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiPrefeito = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -63,21 +63,21 @@
             // 
             this.mnsMenuLoja.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.mnsMenuLoja.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnsMenu});
+            this.tsmiMenu});
             this.mnsMenuLoja.Location = new System.Drawing.Point(0, 0);
             this.mnsMenuLoja.Name = "mnsMenuLoja";
             this.mnsMenuLoja.Size = new System.Drawing.Size(775, 24);
             this.mnsMenuLoja.TabIndex = 1;
             this.mnsMenuLoja.Text = "menuStrip1";
             // 
-            // mnsMenu
+            // tsmiMenu
             // 
-            this.mnsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmiMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiAlimento,
             this.tsmiPrefeito});
-            this.mnsMenu.Name = "mnsMenu";
-            this.mnsMenu.Size = new System.Drawing.Size(50, 20);
-            this.mnsMenu.Text = "Menu";
+            this.tsmiMenu.Name = "tsmiMenu";
+            this.tsmiMenu.Size = new System.Drawing.Size(50, 20);
+            this.tsmiMenu.Text = "Menu";
             // 
             // tsmiAlimento
             // 
@@ -348,7 +348,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip mnsMenuLoja;
-        private System.Windows.Forms.ToolStripMenuItem mnsMenu;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMenu;
         private System.Windows.Forms.ToolStripMenuItem tsmiAlimento;
         private System.Windows.Forms.ToolStripMenuItem tsmiPrefeito;
         private System.Windows.Forms.Label lblTitulo;
